@@ -23,7 +23,7 @@ html:
 # Interact link settings
 repository:
   url: "https://github.com/shinaoka/binder-test.git"
-  path_to_book                : src
+  #path_to_book                : src
   branch                      : main
   notebook_interface          : classic
   binderhub_url: "https://mybinder.org"
