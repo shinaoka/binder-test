@@ -25,11 +25,14 @@ html:
 #######################################################################################
 # Launch button settings
 launch_buttons:
-  binderhub_url: "https://github.com/shinaoka/binder-test.git"
+  url: "https://github.com/shinaoka/binder-test.git"
   path_to_book                : src
   branch                      : main
   notebook_interface          : classic
   colab_url: "https://colab.research.google.com"
+
+launch_buttons:
+  binderhub_url: "https://mybinder.org"
 
 latex:
   latex_engine                : "xelatex"
