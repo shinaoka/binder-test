@@ -10,8 +10,8 @@ COPY ./README.md ${HOME}/README.md
 COPY ./src ${HOME}/src
 
 USER root
+RUN ls ${HOME}
 RUN chown -R ${NB_UID} ${HOME}
 RUN echo "A"
-RUN ls ${HOME}
 
 USER ${NB_USER}
