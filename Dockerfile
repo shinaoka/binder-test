@@ -13,7 +13,7 @@ USER root
 RUN echo ${HOME}
 RUN ls ${HOME}
 RUN ls -l ${HOME}/src
-RUN chown -R ${NB_UID} ${HOME}
+RUN chown -vR ${NB_UID} ${HOME}
 RUN echo "A"
 
 USER ${NB_USER}
