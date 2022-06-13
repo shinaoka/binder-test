@@ -24,11 +24,12 @@ html:
 
 #######################################################################################
 # Launch button settings
-repository:
-  url                         : https://github.com/shinaoka/binder-test.git
-  #path_to_book                : src 
+launch_buttons:
+  binderhub_url: "https://github.com/shinaoka/binder-test.git"
+  path_to_book                : src
   branch                      : main
   notebook_interface          : classic
+  colab_url: "https://colab.research.google.com"
 
 latex:
   latex_engine                : "xelatex"
