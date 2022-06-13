@@ -6,14 +6,13 @@ ENV USER ${NB_USER}
 ENV HOME /home/${NB_USER}
 
 #COPY . ${HOME}
-COPY ./README.md ${HOME}/README.md
 COPY ./src ${HOME}/src
 
 USER root
 RUN echo ${HOME}
 RUN ls ${HOME}
 RUN ls -l ${HOME}/src
-RUN chown -vR ${NB_UID} ${HOME}
+RUN chown -vR ${NB_UID} ${HOME}/src
 RUN echo "A"
 
 USER ${NB_USER}
