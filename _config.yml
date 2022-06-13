@@ -25,8 +25,8 @@ html:
 #######################################################################################
 # Launch button settings
 repository:
-  url                         : https://github.com/SpM-lab/binder-test.git
-  path_to_book                : src 
+  url                         : https://github.com/shinaoka/binder-test.git
+  #path_to_book                : src 
   branch                      : main
   notebook_interface          : classic
 
