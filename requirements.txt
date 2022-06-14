@@ -1,0 +1,3 @@
+matplotlib
+xprec
+sparse-ir
